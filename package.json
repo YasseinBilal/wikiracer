@@ -6,7 +6,7 @@
   "author": "Yassin Belal <yassein.bilal@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "start": "ts-node index.ts"
+    "start": "npx tsx index.ts"
   },
   "dependencies": {
     "@types/jsdom": "^21.1.7",
