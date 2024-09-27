@@ -1,0 +1,22 @@
+{
+  "name": "wikiracer",
+  "version": "1.0.0",
+  "main": "index.ts",
+  "repository": "https://github.com/YasseinBilal/wikiracer.git",
+  "author": "Yassin Belal <yassein.bilal@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "ts-node index.ts"
+  },
+  "dependencies": {
+    "@types/jsdom": "^21.1.7",
+    "jsdom": "^25.0.1",
+    "node-fetch": "^3.3.2"
+  },
+  "devDependencies": {
+    "@types/node": "^22.5.4",
+    "ts-node": "^10.0.0",
+    "typescript": "^5.0.0"
+  },
+  "type": "module"
+}
