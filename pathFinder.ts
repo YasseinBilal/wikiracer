@@ -1,5 +1,4 @@
-import { extractWikiTitle, titleToUrl } from "./helpers";
-import { getInternalLinks } from "./crawler";
+import { extractWikiTitle, titleToUrl, getInternalLinks } from "./helpers";
 
 // BFS algorithm to find a path between two Wikipedia pages
 export async function findWikiPath(
@@ -47,7 +46,8 @@ export async function findWikiPath(
   return null;
 }
 
-// Generator function to process titles in chunks and fetch their internal links
+// [OPTIMIZAtION]
+// Using Generator function to process titles and get their internal links in chunks
 async function* getTitlesInternalLinks(
   titles: string[]
 ): AsyncGenerator<{ [key: string]: string[] }> {
