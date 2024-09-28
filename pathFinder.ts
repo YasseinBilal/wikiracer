@@ -17,6 +17,7 @@ export async function findWikiPath(
     const currentPaths = queue.map((item) => item.path);
     queue.length = 0; // Clear queue for next iteration
 
+    // get titles internal links in chunks from generator
     for await (const currentTitlesInternalLinks of getTitlesInternalLinks(
       currentTitles
     )) {
