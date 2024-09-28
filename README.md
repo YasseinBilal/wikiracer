@@ -66,12 +66,14 @@ testPathFinder(startUrl, endUrl);
 This will search for the shortest path between the given Wikipedia articles, print the path found (if any), and display the steps in the console.
 In the above example the path should be found in around 4 seconds
 
+```
 Searching for path...
 Path found:
 1. https://en.wikipedia.org/wiki/Battle_of_Cr%C3%A9cy
 2. https://en.wikipedia.org/wiki/English_Channel
 3. https://en.wikipedia.org/wiki/Wehrmacht
 ✨  Done in 3.58s.
+```
 
 ---
 
